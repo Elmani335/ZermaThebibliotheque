@@ -1,0 +1,103 @@
+
+html {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(45deg, #001a98, #7712da);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: 'Bahnschrift';
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+table {
+
+    border: 5px solid #000000;
+    table-layout: fixed;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    border-collapse: separate !important;
+    border-radius: 15px;
+    background-image: linear-gradient(45deg, #530793, #090aab);
+}
+
+td, th {
+    font-family: Bahnschrift;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #000000;
+    width: 50%;
+    border-collapse: separate !important;
+    border-radius: 0px 0px 0px 0px;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.31));
+}
+
+/* CSS TOP BAR */
+tr, th, tablebar{
+
+    text-align: center;
+    border: 2px solid #000000;
+    width: 50%;
+    border-collapse: separate !important;
+    border-radius: 100px 100px 0px 100px;
+    background-image: linear-gradient(45deg, #000000, #7e7e7e);
+
+}
+
+tr, #col1 {
+    text-align: center;
+    border: 2px solid #000000;
+    width: 50%;
+    border-collapse: separate !important;
+    border-radius: 20px 0px 0px 20px;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.31));
+}
+
+tr, #col4 {
+    text-align: left;
+    border: 2px solid #000000;
+    width: 50%;
+    border-collapse: separate !important;
+    border-radius: 0px 15px 15px 0px;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.31));
+}
+/* css bar de pagination */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a.page-link {
+    font-family: Bahnschrift;
+    color: white;
+    display: inline-block;
+}
+
+.pagination, page-link {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
