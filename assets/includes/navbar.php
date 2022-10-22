@@ -5,8 +5,8 @@
             <ul id="nav">
                 <link rel="stylesheet" href="../assets/css/navbar.css">
                 <li><a href="index.php">HOME SWEET HOME...</a></li>
-                <li><a href="books.php">BOOKS BANK</a></li>
-                <li><a href="add.php">BOOK BANK EDITOR</a></li>
+                <li><a href="books.php">BOOKS DB</a></li>
+                <li><a href="add.php">BOOK EDITOR</a></li>
 
             </ul>
         </div>
